@@ -1,0 +1,18 @@
+{
+  "name": "neokomik",
+  "version": "1.0.0",
+  "description": "Web komik menggunakan Cloudflare D1 dan GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx wrangler dev",
+    "deploy": "npx wrangler pages deploy ./public --project-name neokomik --branch production --commit-dirty=true"
+  },
+  "keywords": [
+    "cloudflare",
+    "d1",
+    "pages",
+    "webkomik"
+  ],
+  "author": "",
+  "license": "ISC"
+}
